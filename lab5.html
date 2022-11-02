@@ -76,12 +76,41 @@
                 font-size: 25px;
                 z-index: 1;
             }
-            
+            .menu {
+                position: absolute;
+            }
+            .products{
+                display: none;
+            }
+            .menu:hover .products{
+                display: block;
+            }
+            .images {
+                display: none;
+            }
+            .menu:hover .images{
+                display: block;
+            }
+            .news {
+                display: none;
+            }
+            .menu:hover .news{
+                display: block;
+            }
+            .katalog {
+                display: block; 
+            }
         </style>
     </head>   
     <body>
         <div class="header">
             Шандаева Анастасия
+        </div>
+        <div class="menu">
+        <div class="katalog">Каталог</div>
+        <div class="products">Товары</div>
+        <div class="images">Картинки</div>
+        <div class="news">Новости</div>
         </div>
 
         <div class="content" style="margin: 50px;">
