@@ -71,3 +71,12 @@ function InfoFooter() {
     let color = 'rgb(' + r + ',' + g + ',' + b + ')';
     document.getElementById('footer').style.backgroundColor = color;
 }
+
+function dis () {
+    let s = 'none'; 
+    document.getElementById('stih').style.display = s;
+}
+
+function diss () {
+    document.getElementById('stikh').style.display = 'none';
+}
