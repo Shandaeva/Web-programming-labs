@@ -66,3 +66,27 @@ body {
     top: 0;
     right: 0;
 }
+
+.days {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(48, 0, 126, 0.87);
+    font-weight: bold;
+}
+
+.knopkaDays {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(89, 21, 199, 0.87);
+    font-weight: bold;
+}
+
+#resdays {
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(152, 113, 214, 0.87);
+    font-weight: bold;
+}
