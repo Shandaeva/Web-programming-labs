@@ -45,6 +45,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 function showFocus(event) {
     event.target.style.color = 'red';
+    event.target.style.fontSize = '20px';
 }
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -56,6 +57,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 function showBlur(event) {
     event.target.style.color = 'black';
+    event.target.style.fontSize = '30px';
 }
 
 window.addEventListener('DOMContentLoaded', function() {
@@ -63,4 +65,16 @@ window.addEventListener('DOMContentLoaded', function() {
     texts[0].addEventListener('blur',  showBlur);
     texts[1].addEventListener('blur',  showBlur);
     texts[2].addEventListener('blur',  showBlur);
+});
+
+
+function showChange(event) {
+    document.getElementById('output').innerHTML=event.target.value;
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    let texts = document.querySelectorAll('input[type = "text"]');
+    texts[0].addEventListener('change',  showChange);
+    texts[1].addEventListener('change',  showChange);
+    texts[2].addEventListener('change',  showChange);
 });
