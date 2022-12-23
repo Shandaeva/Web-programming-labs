@@ -78,6 +78,13 @@ function makeStikh(){
     }
 }
 
+function makeMT() {
+    let stepCount=9;
+    for (let i = 0; i<stepCount; i++) {
+        document.write ((i+1) + ' * 37 =' + ((i+1)*37) + "<br>");
+    }
+}
+
 
 function All_function() {
     makeStairs();

@@ -42,5 +42,10 @@
     margin: auto;
 }
 
+.multiplication_table {
+    width: 1000px;
+    position: absolute;
+    text-align: center;
+}
 
 
